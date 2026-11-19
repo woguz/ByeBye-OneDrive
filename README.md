@@ -6,7 +6,7 @@ Safely unhijack your Windows **Desktop, Documents, Pictures, Music, and Videos**
 
 ## Why ByeBye-OneDrive?
 
-Most OneDrive removal scripts only uninstall the OneDrive client or delete registry keys without moving your files back or fixing Windows Known Folder paths — leaving your `Desktop`, `Documents`, and `Pictures` trapped inside `OneDrive\...` or broken altogether.
+Most OneDrive removal scripts only uninstall the OneDrive client or delete registry keys without moving your files back or fixing Windows Known Folder paths, leaving your `Desktop`, `Documents`, and `Pictures` trapped inside `OneDrive\...` or broken altogether.
 
 **ByeBye-OneDrive v2.1** is built around strict data safety:
 * **No-Overwrite Smart Merge (SHA256):** Files are merged one by one. Identical files (verified via SHA256) are cleanly de-duplicated, while files with the same name but different content are preserved side by side as `filename (OneDrive).ext`.
